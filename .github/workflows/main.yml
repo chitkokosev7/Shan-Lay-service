@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shan Lay ဝန်ဆောင်မှု</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Pyidaungsu', sans-serif; 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+            padding: 20px;
+            text-align: center;
+        }
+        .container { 
+            max-width: 400px; 
+            margin: 0 auto; 
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+        }
+        .logo { 
+            font-size: 80px; 
+            margin-bottom: 20px; 
+        }
+        h1 { margin-bottom: 10px; font-size: 24px; }
+        .service-item { 
+            background: rgba(255,255,255,0.2); 
+            padding: 15px; 
+            margin: 10px 0; 
+            border-radius: 10px; 
+        }
+        .phone-btn { 
+            display: block; 
+            background: #25D366; 
+            color: white; 
+            text-decoration: none; 
+            padding: 15px; 
+            margin: 10px 0; 
+            border-radius: 10px; 
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .whatsapp-btn { background: #128C7E; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🔧</div>
+        <h1>Shan Lay ဝန်ဆောင်မှု</h1>
+        <p style="margin-bottom: 20px;">လျှပ်စစ် • ရေပိုက် • အေးခန်း • ဆိုလာ</p>
+        
+        <div class="service-item">🔌 လျှပ်စစ်ပြုပြင်ခြင်း</div>
+        <div class="service-item">🚰 ရေပိုက်ပြုပြင်ခြင်း</div>
+        <div class="service-item">❄️ အေးခန်းတပ်ဆင်ခြင်း</div>
+        <div class="service-item">☀️ ဆိုလာ Panel တပ်ဆင်ခြင်း</div>
+        
+        <a href="tel:09440240900" class="phone-btn">📞 09-440240900</a>
+        <a href="tel:09691565813" class="phone-btn">📞 09-691565813</a>
+        <a href="tel:09789932646" class="phone-btn">📞 09-789932646</a>
+        <a href="https://wa.me/09440240900" class="phone-btn whatsapp-btn">📱 WhatsApp ဆက်သွယ်ရန်</a>
+        
+        <div style="margin-top: 20px; font-size: 14px; color: rgba(255,255,255,0.8);">
+            © 2024 Shan Lay Service | 24/7 ဝန်ဆောင်မှု
+        </div>
+    </div>
+</body>
+</html>
